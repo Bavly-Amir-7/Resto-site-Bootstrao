@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Shadows+Into+Light&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(32deg 40.54% 92.75%);
+}
+
+:root {
+    --text-grey-color: #908eac;
+    --text-purple-color: #6c55f9;
+    --text-color: #2d2b3a;
+    --line-color: #f0eff8;
+}
+
+
+
+/*! *********************** Start library **********************/
+
+
+.content {
+    margin: 2%;
+    background-color: white;
+}
+
+
+@media (max-width: 576px) {
+    :root {
+        font-size: 8px;
+    }
+
+    .content {
+        margin: 2%;
+
+    }
+}
+
+@media (max-width: 900px) {
+    :root {
+        font-size: 8px;
+    }
+
+    .content {
+        margin: 2%;
+    }
+}
+
+
+/*! *********************** End library **********************/
+
+
+/*! *********************** Start NAV **********************/
+
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav_content {
+    width: 70%;
+}
+
+.navbar-toggler-icon {
+    margin-left: 10%;
+}
+
+.search_icon {
+    margin-right: 10%;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red;
+}
+
+@media (max-width: 576px) {
+    .nav-tog {
+        background: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav-tog {
+        background: none;
+    }
+}
+
+
+/*! *********************** End NAV **********************/
+
+
+
+
+/*! *********************** Start Section 1**********************/
+
+
+.section-1 {
+    font-family: "Josefin Slab", serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-1 h2 {
+    font-size: 3rem;
+}
+
+.section-1-btns {
+    font-family: "Oswald", sans-serif;
+
+}
+
+.serv {
+    width: 400px;
+}
+
+.serv>div:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
+
+.carousel {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    .section-1-btns {
+        text-align-last: center;
+    }
+
+    .section-title {
+        text-align-last: center;
+    }
+
+    .serv {
+        width: auto;
+    }
+
+    .serv>div:not(:last-child) {
+        border-right: none;
+    }
+
+    .carousel {
+        width: 50%;
+        margin: auto;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .section-1-btns {
+        text-align-last: center;
+    }
+
+    .section-title {
+        text-align-last: center;
+    }
+
+    .serv {
+        width: auto;
+    }
+
+    .serv>div:not(:last-child) {
+        border-right: none;
+    }
+
+    .carousel {
+        width: 50%;
+        margin: auto;
+        padding-top: 10px;
+
+    }
+}
+
+
+/*! *********************** End Section 1**********************/
+
+
+/*! *********************** Start ABOUT Section **********************/
+
+.about-section img {
+    width: 85%;
+}
+
+.about-section h4 {
+    font-family: "Josefin Slab", serif;
+}
+
+.recipe-img {
+    width: 90% !important;
+}
+
+.recp-title {
+    font-size: 15px;
+}
+
+.about-img img {
+    transition: transform 0.3s ease;
+}
+
+.about-img img:hover {
+    transform: scale(1.1) translateX(1px);
+}
+
+
+@media (max-width: 576px) {
+
+    .about-section img,
+    .recipe-img {
+        width: 30%;
+    }
+
+
+    .about-section p {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-section img {
+        width: 40%;
+    }
+
+    .recipe-img {
+        width: 40% !important;
+        padding-top: 50px;
+    }
+
+    .about-img {
+        padding-top: 50px;
+    }
+
+    .about-right {
+        padding-top: 50px;
+    }
+
+    .about-section p {
+        text-align: center !important;
+    }
+
+}
+
+/*! *********************** End ABOUT  Section  **********************/
+
+
+
+/*! *********************** Start SPECIAL DISHES Section **********************/
+
+
+.the-line {
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.the-line::after {
+    content: '';
+    position: absolute;
+    top: 56%;
+    left: 25%;
+    width: 25%;
+    height: .5px;
+    background-color: black;
+    transform: translate(-50%, -50%);
+}
+
+
+.section-2 h4 {
+    font-family: "Josefin Slab", serif;
+    padding-left: 13%;
+}
+
+.section-2 .par {
+    width: 75%;
+    padding-left: 13%;
+}
+
+.section-2 .book-btn-style {
+    padding-left: 13%;
+    width: 115%;
+}
+
+.section-2 img {
+    transition: transform 0.3s ease;
+}
+
+.section-2 img:hover {
+    transform: scale(1.1) translateX(1px);
+}
+
+@media (max-width: 576px) {
+    .section-2-img-1 img {
+        width: 40%;
+    }
+
+    .the-line::after {
+        content: '';
+        position: unset;
+
+    }
+
+    .section-2 .book-btn-style {
+        padding-left: initial;
+        width: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+
+    .section-2 .par {
+        padding-left: 0%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-2 h4 {
+        padding-left: 0%;
+    }
+}
+
+@media (max-width: 900px) {
+    .section-2-img-1 img {
+        width: 40%;
+    }
+
+    .the-line::after {
+        content: '';
+        position: unset;
+
+    }
+
+    .section-2 .book-btn-style {
+        padding-left: initial;
+        width: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+
+    .section-2 .par {
+        padding-left: 0%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-2 h4 {
+        padding-left: 0%;
+    }
+}
+
+/*! *********************** End SPECIAL DISHES Section **********************/
+
+
+
+
+/*! *********************** Start MENU**********************/
+
+menu {
+    font-family: "Josefin Slab", serif;
+
+}
+
+menu img {
+    width: 15%;
+}
+
+.small-title {
+    font-size: small;
+}
+
+/*! *********************** END MENU**********************/
+
+
+
+/*! *********************** start customer-image**********************/
+
+.customer-image .carousel {
+    width: 100%;
+}
+
+
+.customer-image img {
+    width: 100%;
+    height: 600px;
+}
+
+.customer-image .rounded-circle {
+    height: 24px;
+    width: 24px;
+}
+
+.customer-image .text {
+    color: rgb(252 253 252);
+}
+
+.customer-image p {
+    font-family: "Josefin Slab", serif;
+}
+
+@media (max-width: 576px) {
+    .customer-image img {
+        width: 100%;
+        height: 290px;
+    }
+
+    .customer-image .rounded-circle {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .customer-image img {
+        width: 100%;
+        height: 290px;
+    }
+
+    .customer-image .rounded-circle {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+/*! *********************** End customer-image**********************/
+
+
+
+/*! *********************** start Team info**********************/
+
+.column-cards {
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    position: relative;
+    overflow: hidden;
+
+}
+
+/* .column-cards:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 300ms ease;
+} */
+
+.column-cards img {
+    width: 80%;
+    transition: transform 0.5s ease;
+
+}
+
+.column-cards:hover img {
+    transform: scale(1.1);
+}
+
+.column-cards:hover:before {
+    opacity: 1;
+    transition: all 300ms ease;
+}
+
+
+.card-wrapper .btn-primary {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    width: 60%;
+}
+
+.card-wrapper .btn-primary:hover {
+    color: black;
+    background-color: white;
+}
+
+a .team-span {
+    font-weight: 100 !important;
+}
+
+
+@media (max-width: 576px) {
+    .column-cards img {
+        width: 40%;
+    }
+
+    .card-wrapper .btn-primary {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        background-color: white;
+        color: black;
+        border: none;
+        width: 20%;
+    }
+
+    .card-wrapper .btn-primary:hover {
+        color: black;
+        background-color: white;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .column-cards img {
+        width: 40%;
+    }
+
+    .card-wrapper .btn-primary {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        background-color: white;
+        color: black;
+        border: none;
+        width: 20%;
+    }
+
+    .card-wrapper .btn-primary:hover {
+        color: black;
+        background-color: white;
+    }
+
+}
+
+
+
+/*! *********************** end team info**********************/
+
+
+/*! *********************** start Book Section **********************/
+book-form. {
+    background-color: white;
+    width: 27%;
+    margin-left: 6%;
+    height: 160%;
+    padding-top: 3%;
+}
+
+
+.booking-title {
+    font-family: "Josefin Slab", serif;
+}
+
+.book-section label,
+.book-section .time {
+    padding-left: 10%;
+}
+
+.book-section input,
+.book-section select {
+    width: 85%;
+    padding-left: 3%;
+}
+
+.time {
+    width: 87%;
+    place-content: space-between;
+
+}
+
+.time input {
+    width: 130%;
+    height: 35px;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+
+.book-section textarea {
+    width: 85%;
+    padding-left: 5%;
+}
+
+.book-section {
+    background-image: linear-gradient(to bottom, rgba(74, 64, 64, 0.368), rgba(80, 65, 65, 0.367)), url(../task/img/reservation-bg.jpg);
+    background-size: cover;
+    height: 660px;
+}
+
+
+.booking {
+    padding-top: 10%;
+    height: 80%;
+
+}
+
+
+.shadow-form {
+    max-width: 445px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+
+
+.shadow-form:hover {
+    transform: translateY(-5px);
+}
+
+
+@media (max-width: 576px) {
+    .book-section {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+        padding-top: 5%;
+    }
+
+
+
+    .book-section label,
+    .book-section .time {
+        padding-left: 5%;
+    }
+
+    .book-section input,
+    .book-section select,
+    .book-section textarea {
+        width: 95%;
+        padding-left: 2%;
+    }
+
+    .time input {
+        width: 100%;
+    }
+
+    .booking {
+        padding-top: 20%;
+        height: 55%;
+    }
+}
+
+@media (max-width: 900px) {
+    .book-section {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+        padding-top: 0%;
+    }
+
+    .book-section form {
+        background-color: white;
+        width: 100%;
+        height: 200%;
+        padding-top: 3%;
+    }
+
+    .book-form{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .book-section label,
+    .book-section .time {
+        padding-left: 5%;
+    }
+
+    .book-section input,
+    .book-section select,
+    .book-section textarea {
+        width: 95%;
+        padding-left: 2%;
+    }
+
+    .time input {
+        width: 100%;
+    }
+
+    .booking {
+        padding-top: 0%;
+        height: auto;
+    }
+}
+
+/*! *********************** end Book Section **********************/
+
+
+
+
+
+/*! *********************** Start Footer **********************/
+
+/******************************** Start Footer *****************************/
+
+.footer {
+    margin-top: 20%;
+}
+
+.footer-cols .week {
+    justify-content: space-between;
+}
+
+.mail-a,
+.phone-a {
+    text-decoration: none;
+    color: var(--text-purple-color);
+}
+
+
+
+.footer-mail {
+    height: 51px;
+    width: 100%;
+}
+
+.footer-mail::placeholder {
+    text-indent: 10px;
+}
+
+
+.footer-btn {
+    width: 100%;
+}
+
+
+
+@media (max-width: 900px) {
+    .footer {
+        text-align: center;
+    }
+
+
+    .footer-cols {
+        padding-top: 40px;
+    }
+
+    .footer-middle .footer-cols {
+        width: 20% !important;
+    }
+
+    .footer-btn {
+        width: 23%;
+    }
+
+    .footer-middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+
+    .footer-mail {
+        height: 51px;
+        width: 50%;
+    }
+
+    .footer p {
+        padding-top: 10px !important;
+        width: 100% !important;
+    }
+
+    .footer .social {
+        width: 100% !important;
+        justify-content: space-evenly !important;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer-cols {
+        padding-top: 40px;
+    }
+
+    .footer-middle .footer-cols {
+        width: 35% !important;
+    }
+
+    .footer-btn {
+        width: 23%;
+    }
+
+    .footer-middle {
+        text-align: center;
+    }
+
+    .footer p {
+        padding-top: 10px !important;
+        width: 100% !important;
+
+    }
+
+    .footer .social {
+        width: 100% !important;
+        justify-content: space-evenly !important;
+    }
+
+}
+
+
+/******************************** End Footer *****************************/
+
+
+/*! *********************** End Footer **********************/
+
+
